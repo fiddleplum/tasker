@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; background-color: white; color: black; font-family: "Quicksand"; }
+div { overflow: auto; padding: 0; margin: 0; line-height: 24px; }
+input[type=submit], button { border: 0; outline: 0; padding: 4px; background-color: #8888bb; color: black; font-family: "Quicksand"; font-size: 14px; line-height: 1em; border-radius: 4px; height: 24px; }
+input[type=text] { border: 0; border-image-width: 0; padding: 4px; font-size: 14px; height: 24px; }
+input:focus { border: 0; }
+#header { position: absolute; top: 0; left: 0; right: 0; height: 32px; background-color: #ccccff; }
+#header #title { float: left; margin: 4px; }
+#header button { float: right; margin: 4px; height: 24px; }
+#new_task { z-index: 1; position: absolute; right: 0px; top: 32px; width: 320px; height: 0px; border-bottom-left-radius: 4px; background-color: #8888bb; }
+#new_task form { margin: 0; width: 320px; }
+#new_task form input[type=text] { width: 280px; margin: 4px; }
+#new_task form input[type=submit] { width: 24px; margin: 4px; }
+#content { position: relative; margin-top: 32px; height: calc(100% - 32px); }
+.panel { position: relative; background-color: #ccccff; }
+.panel #title { padding: .25em; font-size: 1.5em; background-color: #aaaadd; }
